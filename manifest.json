@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Проверка samlib.ru",
+  "description": "Проверка обновлений на samlib.ru.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+	"tabs",
+    "http://samlib.ru/"
+  ],
+  "options_page": "options.html"  
+}

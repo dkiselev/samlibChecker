@@ -1,0 +1,15 @@
+ul.book{ 
+    padding: 0; 
+    margin: 0;
+	list-style-type: none;
+}
+
+ul.book li 
+{
+    padding: 0; 
+	padding-left: 1em; 
+    margin: .2em;
+}
+
+#list div{ margin-top:10px;}
+
